@@ -39,7 +39,7 @@ class TopNavBar extends Component {
                 <Navbar.Header>
                     <Navbar.Brand>
                         <a href={pathname}>
-                            Team 10 - Survey
+                            Team ST - Survey
                         </a>
                     </Navbar.Brand>
                     <Navbar.Toggle/>

@@ -3,8 +3,12 @@
   "items": {
     "type": "object",
     "properties": {
-      "title": { "type": "string" },
-      "subTitle": { "type": "string" },
+      "title": {
+        "type": "string"
+      },
+      "subTitle": {
+        "type": "string"
+      },
       "questions": {
         "type": "array",
         "items": {

@@ -11,11 +11,17 @@
           "type": "string"
         }
       },
-      "required": ["username", "email"]
+      "required": [
+        "username",
+        "email"
+      ]
     },
     "token": {
       "type": "string"
     }
   },
-  "required": ["token", "user"]
+  "required": [
+    "token",
+    "user"
+  ]
 }
