@@ -9,25 +9,25 @@ import Tooltip from 'recharts/lib/component/Tooltip';
 
 
 class GraphReport extends React.Component {
-  render() {
-    let { width, height, data } = this.props;
+    render() {
+        let {width, height, data} = this.props;
 
-    return (
-        <div>
-          <BarChart data={data} width={width} height={height}>
-            <XAxis dataKey="name"/>
-            <YAxis/>
-            <Tooltip />
-            <CartesianGrid strokeDasharray="3 3"/>
-            <Bar dataKey="value" fill="#337ab7" barSize={20} />
-          </BarChart>
-        </div>
-    );
-  }
+        return (
+            <div>
+                <BarChart data={data} width={width} height={height}>
+                    <XAxis dataKey="name"/>
+                    <YAxis/>
+                    <Tooltip/>
+                    <CartesianGrid strokeDasharray="3 3"/>
+                    <Bar dataKey="value" fill="#337ab7" barSize={20}/>
+                </BarChart>
+            </div>
+        );
+    }
 }
 
 GraphReport.propTypes = {
-  data: PropTypes.array
+    data: PropTypes.array
 };
 
 export default GraphReport;
